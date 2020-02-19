@@ -1,3 +1,4 @@
+const storage = new Storage();
 const weatherLocation = storage.getLocationData();
 
 const weather = new Weather(weatherLocation.city, weatherLocation.state);
